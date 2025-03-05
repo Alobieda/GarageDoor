@@ -1,0 +1,5 @@
+/home/Belal/blank_project_rt/build/CMakeFiles/edit_cache.dir
+/home/Belal/blank_project_rt/build/CMakeFiles/rebuild_cache.dir
+/home/Belal/blank_project_rt/build/main/CMakeFiles/sample_project.dir
+/home/Belal/blank_project_rt/build/main/CMakeFiles/edit_cache.dir
+/home/Belal/blank_project_rt/build/main/CMakeFiles/rebuild_cache.dir

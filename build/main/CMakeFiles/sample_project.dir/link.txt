@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/sample_project.dir/main.cpp.o -o /home/Belal/blank_project_rt/bin/sample_project 
