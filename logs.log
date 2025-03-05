@@ -1,0 +1,54 @@
+time;model_id;model_name;port_name;data
+[33m0;3;alarmGen;;State: IDLE  , [0m
+[33m0;4;doorTimer;;State :CLOSE  [0m
+[33m0;5;codCont;;State :IDLE    [0m
+[33m0;6;counter;;State : IDLE     Failed attampt :0[0m
+[33m0;7;lightOut;;State: OFF  [0m
+[33m0;8;lightIn;;State: OFF  [0m
+[33m0;9;testGenerator;;generatorState: sigma=0, index=0, [0m
+[33m0;5;codCont;;State :ACTIVE   the CODE entered is NOT VALID   the emeregency button WAS NOT PRESSED  sigma : 0[0m
+[32m0;9;testGenerator;out;1212[0m
+[33m0;9;testGenerator;;generatorState: sigma=1, index=1, [0m
+[32m0;5;codCont;invalidCode;1[0m
+[33m0;5;codCont;;State :IDLE    [0m
+[33m0;6;counter;;State : IDLE     Failed attampt :1[0m
+[33m1;5;codCont;;State :ACTIVE   the CODE entered is VALID  the emeregency button WAS NOT PRESSED  sigma : 0[0m
+[32m1;9;testGenerator;out;1234[0m
+[33m1;9;testGenerator;;generatorState: sigma=1, index=2, [0m
+[33m1;4;doorTimer;;State :OPEN  The door is OPEN  the timer is NOT UPDATED  sigma: 15[0m
+[32m1;5;codCont;validCode;1[0m
+[33m1;5;codCont;;State :IDLE    [0m
+[33m2;5;codCont;;State :ACTIVE   the CODE entered is NOT VALID   the emeregency button WAS NOT PRESSED  sigma : 0[0m
+[32m2;9;testGenerator;out;1235[0m
+[33m2;9;testGenerator;;generatorState: sigma=1, index=3, [0m
+[32m2;5;codCont;invalidCode;1[0m
+[33m2;5;codCont;;State :IDLE    [0m
+[33m2;6;counter;;State : IDLE     Failed attampt :2[0m
+[33m3;5;codCont;;State :ACTIVE   the CODE entered is NOT VALID   the emeregency button WAS NOT PRESSED  sigma : 0[0m
+[32m3;9;testGenerator;out;1111[0m
+[33m3;9;testGenerator;;generatorState: sigma=1, index=4, [0m
+[32m3;5;codCont;invalidCode;1[0m
+[33m3;5;codCont;;State :IDLE    [0m
+[33m3;6;counter;;State : SEND_ALARM   Failed attampt :0[0m
+[33m3;3;alarmGen;;State: ACTIVE  , Minor Alarm: ON  , Major Alarm: OFF  , Reset: NOT TRIGGERED  , Sigma: 0[0m
+[32m3;6;counter;sendAlarm;1[0m
+[33m3;6;counter;;State : IDLE     Failed attampt :0[0m
+[32m3;3;alarmGen;minor_alarm;1[0m
+[33m3;3;alarmGen;;State: IDLE  , [0m
+[33m4;5;codCont;;State :ACTIVE   the CODE entered is NOT VALID   the emeregency button WAS NOT PRESSED  sigma : 0[0m
+[32m4;9;testGenerator;out;2222[0m
+[33m4;9;testGenerator;;generatorState: sigma=inf, index=5, [0m
+[32m4;5;codCont;invalidCode;1[0m
+[33m4;5;codCont;;State :IDLE    [0m
+[33m4;6;counter;;State : IDLE     Failed attampt :1[0m
+[32m16;4;doorTimer;doorOpen;0[0m
+[33m16;4;doorTimer;;State :CLOSE  [0m
+[33m16;7;lightOut;;State: ON  The Light is ON  it is a NightTime  , another code was  NOT ENTERED  Sigma: 120[0m
+[33m16;8;lightIn;;State: ON  The Light is ON  , was another code entered ? NO  [0m
+[33m16;3;alarmGen;;State: IDLE  , [0m
+[33m16;4;doorTimer;;State :CLOSE  [0m
+[33m16;5;codCont;;State :IDLE    [0m
+[33m16;6;counter;;State : IDLE     Failed attampt :1[0m
+[33m16;7;lightOut;;State: ON  The Light is ON  it is a NightTime  , another code was  NOT ENTERED  Sigma: 120[0m
+[33m16;8;lightIn;;State: ON  The Light is ON  , was another code entered ? NO  [0m
+[33m16;9;testGenerator;;generatorState: sigma=inf, index=5, [0m
