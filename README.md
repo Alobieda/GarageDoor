@@ -15,6 +15,7 @@ git clone https://github.com/Alobieda/GarageDoor.git
 ```
 To build this project, run:
 ```sh
+cd GarageDoor
 source build_sim.sh
 ```
 __NOTE__: Every time you run build_sim.sh, the contents of `build/` and `bin/` will be replaced.
